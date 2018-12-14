@@ -11,17 +11,33 @@
   <body>
 
     <style type="text/css">
-    @@media screen and (min-width: 800px) {
+    @@media screen and (min-width: 768px) {
 
       body{
         background-color: green;
       }
+
+      .hero {
+        width: 100%;
+      }
     }
 
-      @media screen and (max-width: 400px){
+    @@media screen and (min-width: 600px) {
+
+    }
+
+      @media screen and (max-width: 450px){
 
         .hero{
-          width: 49%;
+          width: 50%;
+        }
+
+        .header{
+          width: auto;
+        }
+
+        .nav{
+          width: 80%;
         }
 
         .top-news{

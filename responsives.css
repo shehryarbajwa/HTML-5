@@ -11,7 +11,7 @@
   .header__logo{
   height: 48px;
   margin-right: 0.5em;
-}
+  }
 
   .header__title{
     margin-left: 1em;
@@ -35,10 +35,58 @@
     transform: translate(0,0);
   }
 
-  
+  .nav__item{
+    display: list-item;
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: right;
+  }
 
+  .header_menu{
+    display: inline-block;
+    position: auto;
+    right: 0;
+    padding: 1em;
+  }
 
+  .header_menu svg {
+    width: 2px;
+    fill: #E0E0E0;
+  }
+}
 
+@@media screen and (min-width: 550px) {
+  .hero{
+    order: 0;
+    width: 60%;
+  }
+  .weather{
+    order: 1;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hero {
+    order: 1;
+    width: 50%;
+  }
+  .top-news {
+    order: 2;
+    width: 50%;
+  }
+  .scores {
+    order: 3;
+    width: 60%;
+  }
+  .weather {
+    order: 4;
+  }
+}
 
-
+@media screen and (min-width: 850px) {
+  main, .header__inner, .nav, .content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

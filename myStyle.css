@@ -33,3 +33,7 @@ p {
   right: 20px;
   width: 200px;
 }
+.image-profile{
+  position: relative;
+  align-items: center;
+}

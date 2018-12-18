@@ -1,52 +1,18 @@
-body {
- color: #FFFFFF;
-}
-h1 {
- color: #02b3e4;
- text-align: right;
- font: arial 200% fantasy;
- font-size: 36px;
- margin-right: 100px;
- margin-left: 100px;
+.logo {
+  width: 77px;
+  height: 77px;
 }
 
-.horizontal-line{
-  background-color: #02b3e4;
-  margin-right: 100px;
-  margin-left: 100px;
+.name{
+  height: 60px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-h4 {
-  color: #02b3e4;
-  font: arial;
-  text-align: right;
-  padding-right: 20px;
-  padding-top: 0px;
-  margin-right: 100px;
-  margin-left: 100px;
+.title{
+  height: 60px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.portfolio{
-  color: #7d97ad;
-  text-align: left;
-  margin-left: 100px;
-
-}
-
-.around-me{
-  padding-left: 60px;
-}
-
-.profile-pic{
-  display: block;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 100%;
-}
-
-.udacity{
-  position: absolute;
-  margin-left: 80px;
-  margin-right: 100px;
-  width: 200px;
+.img-responsiveness{
+  width: 1000px;
 }

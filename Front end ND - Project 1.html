@@ -4,13 +4,14 @@
  <meta charset = "UTF-8">
  <title>design-mockup-portfolio.html</title>
  <link rel = "stylesheet" type = "text/css" href = "myStyle.css" />
+ <!-- bootstrap library -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <!-- jQuery library -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  </head>
  <body>
+<!-- All divs contained in the container-fluid as per Bootstrap guidelines -->
   <div class="container-fluid">
-
     <div class="row">
       <div class="col-md-6">
         <img src="assets/logo.jpg" alt="udacity logo" class="logo">
@@ -22,36 +23,51 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <hr>
+        <hr class="hr">
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <picture>
           <source media="(min-width: 760px)" srcset="assets/portfolio-image.jpg" />
-          <source media="(min-width: 500px)" srcset="assets/logo.jpg"/>
-          <source media="(max-width: 499px)" srcset="assets/instagram.png" />
+          <source media="(min-width: 500px)" srcset="assets/portfolio-image.jpg"/>
+          <source media="(max-width: 499px)" srcset="assets/portfolio-image.png" />
           <source media="(min-width: 1200px)"srcset="assets/portfolio-image-large.jpg"/>
           <img class="img-responsiveness" src="assets/portfolio-image-large.jpg" alt="workspace">
         <picture>
       </div>
     </div>
-
-
-
+    <div class="row">
+    <div class="col-md-12">
+      <h3>Featured Work</h3>
     </div>
-
-
-
     </div>
-
-
+    <div class="row">
+    <div class="col-md-4">
+      <picture>
+        <source media="(min-width:500px)" srcset="assets/italy.jpg"/>
+        <img class="img-responsive margin" src="assets/italy.jpg" alt="italy">
+      <p class="appify-text text-uppercase">Appify</p>
+      <a href="https://www.github.com/udacity/Appify">https://github.com/udacity/Appify</a>
+      </picture>
     </div>
-
-
-
-    </div>
-
+    <div class="col-md-4">
+    <picture>
+      <source media="(min-width:500px)" srcset="assets/sunflower.jpg"/>
+      <img class="img-responsive margin" src="assets/sunflower.jpg" alt="sunflower">
+    <p class="appify-text text-uppercase">Sunflower</p>
+    <a href="https://www.github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a>
+    </picture>
   </div>
+    <div class="col-md-4">
+    <picture>
+      <source media="(min-width:500px)" srcset="assets/bokeh.jpg"/>
+      <img class="img-responsive margin" src="assets/bokeh.jpg" alt="bokeh">
+      <p class="appify-text text-uppercase">Bokeh</p>
+      <a href="https://www.github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a>
+    </picture>
+    </div>
+    </div>
+    </div>
  </body>
  </html>

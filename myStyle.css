@@ -3,6 +3,10 @@
   height: 77px;
 }
 
+.body{
+  margin-left: 50px;
+}
+
 .name{
   height: 60px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -15,4 +19,16 @@
 
 .img-responsiveness{
   width: 1000px;
+}
+
+.hr{
+  height: 2px;
+  background-color: #7d97ad;
+}
+
+.appify-text{
+  font-size: 20px;
+}
+.sunflower-image{
+  padding-left: 2px;
 }
